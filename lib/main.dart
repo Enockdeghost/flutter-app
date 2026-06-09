@@ -2,5 +2,9 @@ import 'package:flutter/material.dart';
 
 
 void main() => runApp(MaterialApp(
-  home: Text('hello we start here')
+  home: Scaffold(
+    appBar: AppBar(
+      title: Text('web flutter'),
+    ),
+  )
 ));
