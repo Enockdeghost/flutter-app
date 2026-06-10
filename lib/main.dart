@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 
 
+
+
 void main() => runApp(MaterialApp(
   home: Scaffold(
     appBar: AppBar(
-      title: Text('web flutter', style: TextStyle(color: Colors.white),),
-      centerTitle: true,
-      backgroundColor: Colors.deepOrangeAccent,
+      title: Text('chatApp',style: TextStyle(color: Colors.white)),
+      backgroundColor: Colors.blue,
     ),
-
     body: Center(
-      child: Text('Hello World'),
+      child: Text('welcome flutter Appp', style: TextStyle(
+        fontSize: 20.0,
+        fontWeight: FontWeight.bold,
+        color: Colors.blue
+      ),
+      ),
     ),
-    floatingActionButton: FloatingActionButton(
-      onPressed: () {},
-      child: Text('now '),
-    ),
-    backgroundColor: Colors.red[600],
+  ),
       
-  )
 ));
